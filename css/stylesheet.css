@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Light.eot');
+    src: url('fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Raleway-Light.woff2') format('woff2'),
+        url('fonts/Raleway-Light.woff') format('woff'),
+        url('fonts/Raleway-Light.ttf') format('truetype'),
+        url('fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.eot');
+    src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Raleway-Medium.woff2') format('woff2'),
+        url('fonts/Raleway-Medium.woff') format('woff'),
+        url('fonts/Raleway-Medium.ttf') format('truetype'),
+        url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/font/PlayfairDisplay-Bold.eot');
+    src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Regular.eot');
+    src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.forms{
+    border: red 2px solid;
+    padding: 10px;
+}
+.form-row{
+    padding: 10px 0px;
+    display: flex;
+}
+.form-row lable{
+    padding-right: 10px;
+}
+.form-row input{
+    flex: 1;
+}
+.text{
+    border: green 2px solid;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+.main{
+    order: 2;
+    flex: 3;
+}
+.first-column{
+    order: 1;
+    flex: 1;
+}
+
+.second-column{
+    order: 3;
+    flex: 1;
+}
+.text1{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+.feature{
+    background-color: plum;
+    width: 300px;
+    box-sizing: border-box;
+    
+}
+.feature:nth-child(1){ background-color: bisque;}
+.feature:nth-child(2){background-color: orange;}
+.feature:nth-child(3){background-color: olivedrab;}
+
+@media only screen and (max-width: 600px) {
+  .feature:nth-child(1){ background-color: yellow;}
+.feature:nth-child(2){background-color: blue;}
+.feature:nth-child(3){background-color: olive;}
+    
+    .text1{
+    display: flex;
+    flex-flow: column nowrap;
+        flex-basis: 20%;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-around;
+        
+}
+    .feature{
+        margin: 10px;
+    }
+}
+
+.images{
+    display: flex;
+}
+.img1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.t1{
+    font-size: 1rem;
+    
+}
