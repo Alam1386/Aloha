@@ -39,7 +39,7 @@ Software used in this project
 * Git
 * Google Chrome Developer Tools
 
-
-- Developed by: Alam Talash
-- At: RED Academy Toronto
-- Date: 22 Jan 2019
+-----------------------------------------------
+ Developed by: Alam Talash
+ At: RED Academy Toronto
+ Date: 22 Jan 2019
