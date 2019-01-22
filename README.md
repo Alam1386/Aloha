@@ -1,7 +1,5 @@
-Project 1: Aloha Apparel Co
-Developed by: Alam Talash
-At: RED Academy Toronto
-Date: 22 Jan 2019
+Aloha Apparel Co
+
 -----------------------------------------------
 
  Programs used in this project: 
@@ -13,7 +11,8 @@ HTML 5
   * _section_,
   * _aside_,
   * _nav_,
-  * **and mush more...**
+  * many more
+
 
  CSS
 
@@ -23,14 +22,15 @@ HTML 5
 * CSS Reset
 * Responsive CSS to make this website work an any screen.
   * Using: Media Queries,
-  * Using: Relative sizing.
+  * Mobile First Approach Method 
 * Google Fonts
+* Font Awosome
 
  Javascript
 
 * JQuery
 * Flickity
-* Font Awosome 
+ 
 
 Software used in this project
 
@@ -40,3 +40,6 @@ Software used in this project
 * Google Chrome Developer Tools
 
 
+- Developed by: Alam Talash
+- At: RED Academy Toronto
+- Date: 22 Jan 2019
