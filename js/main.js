@@ -13,7 +13,7 @@
 
 
 
-    var itensInChat = 0;
+    let itensInChat = 0;
     $(document).on("click", ".addToCard", function (event) {
         event.preventDefault();
     
